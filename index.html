@@ -104,7 +104,21 @@
 
 
     <script>
+        function botaoMenu() {
+            var menu = document.getElementById("links")
+            if (menu.style.display === "flex") {
 
+                // ESCONDER MENU
+
+                menu.style.display = "none"
+            } else {
+
+                // MOSTRAR MENU
+
+                menu.style.display = "flex"
+            }
+
+        }
     </script>
 </body>
 </html>
