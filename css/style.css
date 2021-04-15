@@ -270,8 +270,8 @@ hr{
 }
 
 .box_endereco {
-    width: 67vw;
-    height: 30vh;
+    width: 899px;
+    height: 203px;
 
     background: #010010;
     border: 2px solid #340B65;
@@ -298,7 +298,7 @@ hr{
 
 .mapa {
     position: absolute;
-    left: 746px;
+    left: 762px;
     top: 1870px;
 }
 
@@ -317,4 +317,137 @@ footer span {
     font-size: 18px;
     color: white;
     text-transform: capitalize;
+}
+
+@media (max-width: 1230px) {
+    
+    .sobre {
+        height: 1500px;
+    }
+
+    .conteudo_sobre {
+        align-items: center;
+    }
+
+    .conteudo_sobre h2{
+        font-size: 110px;
+    }
+
+    .box_sobre {
+        flex-direction: column;
+        align-items: center;
+        
+        height: 80%;
+    }
+
+    .img_sobre {
+        width: 586px;
+    }
+
+    .participantes {
+        margin-top: 70px;
+
+        height: 50%;
+        justify-content: space-between;
+    }
+
+    .participantes span {
+        font-size: 40px;
+    }
+
+    .participantes p {
+        text-align: justify;
+    }
+
+    /* ENDEREÇO */
+
+    .mapa {
+        left: 709px;
+        top: 2611px;
+    }
+}
+
+@media (max-width: 900px) {
+    #info:target {
+        scroll-margin-top: 20px;
+    }
+
+    .container_escrita_banner {
+        align-items: center;
+    }
+
+    .sobre {
+        height: 1450px;
+    }
+
+    .conteudo_sobre h2{
+        font-size: 110px;
+    }
+
+    .img_sobre {
+        width: 586px;
+    }
+
+    /* INFO */
+
+    .info {
+        flex-direction: column;
+
+        height: 110vh;
+    }
+
+    /* ENDEREÇO */
+
+    .endereco {
+        height: 750px;
+        justify-content: space-evenly;
+    }
+
+    .centralizador {
+        text-align: center;
+    }
+
+    .endereco h2 {
+        font-size: 75px;
+        margin-bottom: 35px;
+    }
+
+    .box_endereco {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .box_endereco span {
+        margin-left: 0;
+    }
+
+    .mapa {
+        position: unset;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 617px) {
+    /* SOBRE */
+
+    .conteudo_sobre h2 {
+        font-size: 100px;
+    }
+
+    .img_sobre {
+        width: 500px;
+    }
+
+    .participantes span {
+        font-size: 35px;
+    }
+
+    .participantes h3 {
+        width: 507px;
+        font-size: 58px; 
+    }
+
+    .participantes p {
+        width: 500px;
+    }
 }
