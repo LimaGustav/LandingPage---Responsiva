@@ -487,12 +487,28 @@ footer span {
 
 @media (max-width: 490px) {
 
+    .nav_header {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 50vh;
+
+
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+
+        background-color: #F9003D;
+    }
+
     .btn_menu {
         display: block;
         color: white;
         font-size: 40px;
         margin-left: 10px;
     }
+
+    /* HEADER */
 
     .sobre {
         height: 1257px;
