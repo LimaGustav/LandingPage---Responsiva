@@ -104,21 +104,28 @@
 
 
     <script>
+        var menu = document.getElementById("links")
         function botaoMenu() {
-            var menu = document.getElementById("links")
             if (menu.style.display === "flex") {
 
                 // ESCONDER MENU
-
-                menu.style.display = "none"
+                if (screen.width < 491) {menu.style.display = "none"}
             } else {
 
                 // MOSTRAR MENU
 
                 menu.style.display = "flex"
             }
-
         }
+        window.onresize = () => {
+            if(screen.width > 491) {
+                menu.style.display = "flex"
+            }
+            else {
+                menu.style.display = "none"
+            }
+        }
+        
     </script>
 </body>
 </html>
