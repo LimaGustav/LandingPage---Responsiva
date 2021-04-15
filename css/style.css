@@ -46,6 +46,7 @@ header{
 
 .container_nav_header{
     display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -486,6 +487,10 @@ footer span {
 }
 
 @media (max-width: 490px) {
+
+    .container_nav_header {
+        justify-content: flex-start;
+    }
 
     .nav_header {
         flex-direction: column;
