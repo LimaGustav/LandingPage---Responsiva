@@ -59,6 +59,10 @@ header{
     font-family: 'Bebas Neue', cursive;
 }
 
+.btn_menu {
+    display: none;
+}
+
 /* HEADER */
 
 .banner {
@@ -399,7 +403,7 @@ footer span {
     /* ENDEREÇO */
 
     .endereco {
-        height: 750px;
+        height: 850px;
         justify-content: space-evenly;
     }
 
@@ -413,7 +417,8 @@ footer span {
     }
 
     .box_endereco {
-        width: 100vw;
+        width: 80vw;
+        height: 250px;
         justify-content: center;
     }
 
@@ -424,6 +429,7 @@ footer span {
     .mapa {
         position: unset;
         margin-bottom: 20px;
+        width: 80vw;
     }
 }
 
@@ -449,5 +455,78 @@ footer span {
 
     .participantes p {
         width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    hr {
+        width: 90vw;
+    }
+
+    .container_escrita_banner span {
+        font-size: 8.5vw;
+    }
+
+    .container_escrita_banner h1 {
+        font-size: 16vw;
+        width: 95vw;
+        text-align: center;
+    }
+
+    .conteudo_sobre h2 {
+        font-size: 17vw;
+    }
+}
+
+@media (max-width: 490px) {
+
+    .btn_menu {
+        display: block;
+        color: white;
+        font-size: 40px;
+        margin-left: 10px;
+    }
+
+    .sobre {
+        height: 1257px;
+    }
+
+    .box_sobre {
+        height: 80%;
+    }
+
+    .participantes {
+        height: 60%;
+        margin-top: 55px;
+    }
+
+    .participantes span {
+        font-size: 28px;
+    }
+
+    .participantes h3 {
+        width: 384px;
+        font-size: 44px;
+        line-height: 48px;
+    }
+
+    .participantes p {
+        width: 380px;
+    }
+
+    .img_sobre {
+        width: 380px;
+    }
+
+    /* SOBRE */
+
+    footer {
+        text-align: center;
+    }
+
+
+    footer span {
+        width: 70vw;
     }
 }
