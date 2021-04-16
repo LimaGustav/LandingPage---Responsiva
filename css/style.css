@@ -383,6 +383,14 @@ footer span {
         scroll-margin-top: 20px;
     }
 
+    .container_nav_header {
+        justify-content: center;
+    }
+
+    .nav_header {
+        width: 80%;
+    }
+
     .container_escrita_banner {
         align-items: center;
     }
@@ -410,7 +418,7 @@ footer span {
     /* ENDEREÇO */
 
     .endereco {
-        height: 850px;
+        height: 980px;
         justify-content: space-evenly;
     }
 
@@ -418,13 +426,13 @@ footer span {
         text-align: center;
     }
 
-    .endereco h2 {
+    .centralizador h2 {
         font-size: 75px;
         margin-bottom: 35px;
     }
 
     .box_endereco {
-        width: 80vw;
+        width: 60vw;
         height: 250px;
         justify-content: center;
     }
@@ -436,7 +444,7 @@ footer span {
     .mapa {
         position: unset;
         margin-bottom: 20px;
-        width: 80vw;
+        width: 60vw;
     }
 }
 
@@ -462,6 +470,18 @@ footer span {
 
     .participantes p {
         width: 500px;
+    }
+
+    .endereco {
+        height: 910px;
+    }
+
+    .box_endereco {
+        width: 80vw;
+    }
+
+    .mapa {
+        width: 80vw;
     }
 }
 
@@ -503,6 +523,7 @@ footer span {
         left: 0;
         width: 100%;
 
+        /* ROUBEI */
         background-color: #010010;
     }
 
